@@ -12,7 +12,7 @@ public class Cliente {
     private String profissao;
     @OneToMany(cascade = CascadeType.ALL)
     private List<Enderecos> enderecos;
-
+//tabela de clientes
     public Cliente() {
     }
 

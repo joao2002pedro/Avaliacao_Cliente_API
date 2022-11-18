@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.*;
 import javax.validation.Valid;
 import java.util.List;
 import java.util.Optional;
-
+//metodo controller
 @RestController
 @RequestMapping(value = "/cliente/v1")
     public class Controller {
